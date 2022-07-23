@@ -45,7 +45,7 @@ export default function App() {
           style={{
             opacity,
             borderRadius,
-            transform: [{ rotaionY: rotation }, { translateY: POSITION.y }], //변화를 주고 싶은 속성 변수 선언
+            transform: [{ rotateY: rotation }, { translateY: POSITION.y }], //변화를 주고 싶은 속성 변수 선언
           }}
         />
       </Pressable>
